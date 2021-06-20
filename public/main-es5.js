@@ -1182,7 +1182,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     var environment = {
-      apiurl: "188.227.84.35:3000"
+      apiurl: "http://188.227.84.35:3000"
     };
     /*
      * For easier debugging in development mode, you can import the following file
