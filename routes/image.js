@@ -29,7 +29,7 @@ router.post(
               .status(400);
           }
           let art = await db.Articles.findById(idArt);
-          art.mainImage = `http://http://188.227.84.35:3000/images/art_${idArt}_${req.file.originalname}`;
+          art.mainImage = `http://188.227.84.35:3000/images/art_${idArt}_${req.file.originalname}`;
 
           const resArt = await art.save();
 
